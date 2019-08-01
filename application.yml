@@ -9,7 +9,7 @@ spring:
   profile: dev
   application:
       name: spirng-cloud-config-client
-content: hello dev11  
+content: hello dev112233  
 ---
 server:
   port: 8202
