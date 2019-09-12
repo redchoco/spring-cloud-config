@@ -1,7 +1,0 @@
-server:
-  port: 8202
-spring:
-  profiles: test
-  application:
-    name:  spring-cloud-config-client
-content: hello test
