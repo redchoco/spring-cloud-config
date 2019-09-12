@@ -16,6 +16,7 @@ spring:
   application:
     #    Application名称
     name: eureka-provider
+    alias: provider-alias
 management:
   server:
   #actuator端口
