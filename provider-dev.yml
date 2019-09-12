@@ -33,5 +33,4 @@ management:
 info:
   port: ${server.port}
   appName: eureka-provider-6001
-  companyName: www.wanho.net
-content: hello provider dev
+  companyName: www.wanho.net222
