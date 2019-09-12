@@ -1,0 +1,7 @@
+server:
+  port: 8201
+spring:
+  profile: dev
+  application:
+      name: spirng-cloud-config-client
+content: hello dev
