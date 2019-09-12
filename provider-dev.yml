@@ -16,7 +16,6 @@ spring:
   application:
     #    Application名称
     name: eureka-provider
-content: hello provider dev
 management:
   server:
   #actuator端口
@@ -35,3 +34,4 @@ info:
   port: ${server.port}
   appName: eureka-provider-6001
   companyName: www.wanho.net
+content: hello provider dev
