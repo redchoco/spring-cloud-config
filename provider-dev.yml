@@ -16,7 +16,7 @@ spring:
   application:
     #    Application名称
     name: eureka-provider
-
+content: hello provider dev
 management:
   server:
   #actuator端口
