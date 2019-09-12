@@ -34,3 +34,5 @@ info:
   port: ${server.port}
   appName: eureka-provider-6001
   companyName: www.wanho.net666
+wanho:
+  content: wanhocontent
