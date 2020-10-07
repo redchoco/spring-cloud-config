@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8201
+spring:
+  profile: dev
+  application:
+      name: spirng-cloud-config-client
+content: hello dev
+---
+server:
+  port: 8202
+spring:
+  profiles: test
+  application:
+    name:  spring-cloud-config-client
+content: hello test
