@@ -1,0 +1,22 @@
+server:
+  port: 7001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: eureka-consumer-7001
+spring:
+  application:
+    name: eureka-consumer
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+info:
+  port: ${server.port}
+  appName: eureka-consumer-7001
+  companyName: www.wanho.net
+  other: other
